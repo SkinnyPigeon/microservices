@@ -1,0 +1,92 @@
+2018-08-21T18:15:36.101227000 0.007597s notice: Recursively removing directory /Users/euanblackledge/Desktop/experiments/microservices/rethink_example/rethinkdb_data/tmp
+2018-08-21T18:15:36.102571000 0.008945s notice: Initializing directory /Users/euanblackledge/Desktop/experiments/microservices/rethink_example/rethinkdb_data
+2018-08-21T18:15:36.102724000 0.009093s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/euanblackledge/Desktop/experiments/microservices/rethink_example/rethinkdb_data' did not already exist or is empty.)
+2018-08-21T18:15:36.102794000 0.009163s notice: Running rethinkdb 2.3.6 (CLANG 9.0.0 (clang-900.0.37))...
+2018-08-21T18:15:36.107517000 0.013886s notice: Running on Darwin 17.7.0 x86_64
+2018-08-21T18:15:36.107572000 0.013941s notice: Loading data from directory /Users/euanblackledge/Desktop/experiments/microservices/rethink_example/rethinkdb_data
+2018-08-21T18:15:36.248154000 0.154519s info: Automatically using cache size of 1198 MB
+2018-08-21T18:15:36.248795000 0.155160s notice: Listening for intracluster connections on port 29015
+2018-08-21T18:15:36.250592000 0.156957s notice: Listening for client driver connections on port 28015
+2018-08-21T18:15:36.250782000 0.157147s notice: Listening for administrative HTTP connections on port 8080
+2018-08-21T18:15:36.250787000 0.157152s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2018-08-21T18:15:36.250796000 0.157161s notice: Listening on driver addresses: 127.0.0.1, ::1
+2018-08-21T18:15:36.250800000 0.157165s notice: Listening on http addresses: 127.0.0.1, ::1
+2018-08-21T18:15:36.250810000 0.157174s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-08-21T18:15:36.250818000 0.157183s notice: Server ready, "Euans_MBP_0kb" 5592b351-b80c-48ad-b74b-d34dd2212bef
+2018-08-21T18:16:11.532852000 35.438233s info: Table 140d5ad4-434b-4030-963b-a6f40a855be6: Starting a new Raft election for term 1.
+2018-08-21T18:16:11.533050000 35.438431s info: Table 140d5ad4-434b-4030-963b-a6f40a855be6: Added replica on this server.
+2018-08-21T18:16:11.556277000 35.461658s info: Table 140d5ad4-434b-4030-963b-a6f40a855be6: This server is Raft leader for term 1. Latest log index is 0.
+2018-08-21T18:16:50.863642000 74.767927s notice: Server got SIGINT from pid 742, uid 501; shutting down...
+2018-08-21T18:16:50.863785000 74.768071s notice: Shutting down client connections...
+2018-08-21T18:16:50.864067000 74.768352s notice: All client connections closed.
+2018-08-21T18:16:50.864080000 74.768365s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-08-21T18:16:50.868366000 74.772650s notice: Storage engine shut down.
+2018-08-21T18:16:51.535805000 0.011328s notice: Running rethinkdb 2.3.6 (CLANG 9.0.0 (clang-900.0.37))...
+2018-08-21T18:16:51.540763000 0.016282s notice: Running on Darwin 17.7.0 x86_64
+2018-08-21T18:16:51.540817000 0.016336s notice: Loading data from directory /Users/euanblackledge/Desktop/experiments/microservices/rethink_example/rethinkdb_data
+2018-08-21T18:16:51.577046000 0.052564s info: Automatically using cache size of 1193 MB
+2018-08-21T18:16:51.577926000 0.053444s notice: Listening for intracluster connections on port 29015
+2018-08-21T18:16:51.590881000 0.066398s notice: Listening for client driver connections on port 28015
+2018-08-21T18:16:51.591104000 0.066621s notice: Listening for administrative HTTP connections on port 8080
+2018-08-21T18:16:51.591108000 0.066625s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2018-08-21T18:16:51.591110000 0.066627s notice: Listening on driver addresses: 127.0.0.1, ::1
+2018-08-21T18:16:51.591113000 0.066630s notice: Listening on http addresses: 127.0.0.1, ::1
+2018-08-21T18:16:51.591177000 0.066694s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-08-21T18:16:51.591181000 0.066698s notice: Server ready, "Euans_MBP_0kb" 5592b351-b80c-48ad-b74b-d34dd2212bef
+2018-08-21T18:16:53.109156000 1.584631s info: Table 140d5ad4-434b-4030-963b-a6f40a855be6: Starting a new Raft election for term 2.
+2018-08-21T18:16:53.130429000 1.605903s info: Table 140d5ad4-434b-4030-963b-a6f40a855be6: This server is Raft leader for term 2. Latest log index is 3.
+2018-08-21T18:18:25.635078000 94.107974s notice: Server got SIGINT from pid 742, uid 501; shutting down...
+2018-08-21T18:18:25.635279000 94.108175s notice: Shutting down client connections...
+2018-08-21T18:18:25.635737000 94.108633s notice: All client connections closed.
+2018-08-21T18:18:25.635757000 94.108652s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-08-21T18:18:25.639759000 94.112655s notice: Storage engine shut down.
+2018-08-21T18:18:26.215923000 0.008977s notice: Running rethinkdb 2.3.6 (CLANG 9.0.0 (clang-900.0.37))...
+2018-08-21T18:18:26.221192000 0.014243s notice: Running on Darwin 17.7.0 x86_64
+2018-08-21T18:18:26.221248000 0.014298s notice: Loading data from directory /Users/euanblackledge/Desktop/experiments/microservices/rethink_example/rethinkdb_data
+2018-08-21T18:18:26.261361000 0.054410s info: Automatically using cache size of 1178 MB
+2018-08-21T18:18:26.262093000 0.055152s notice: Listening for intracluster connections on port 29015
+2018-08-21T18:18:26.276787000 0.069835s notice: Listening for client driver connections on port 28015
+2018-08-21T18:18:26.276993000 0.070042s notice: Listening for administrative HTTP connections on port 8080
+2018-08-21T18:18:26.276997000 0.070045s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2018-08-21T18:18:26.277000000 0.070048s notice: Listening on driver addresses: 127.0.0.1, ::1
+2018-08-21T18:18:26.277002000 0.070050s notice: Listening on http addresses: 127.0.0.1, ::1
+2018-08-21T18:18:26.277066000 0.070115s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-08-21T18:18:26.277069000 0.070118s notice: Server ready, "Euans_MBP_0kb" 5592b351-b80c-48ad-b74b-d34dd2212bef
+2018-08-21T18:18:28.266457000 2.059450s info: Table 140d5ad4-434b-4030-963b-a6f40a855be6: Starting a new Raft election for term 3.
+2018-08-21T18:18:28.298975000 2.091967s info: Table 140d5ad4-434b-4030-963b-a6f40a855be6: This server is Raft leader for term 3. Latest log index is 6.
+2018-08-21T18:20:58.802443000 152.579696s notice: Server got SIGINT from pid 742, uid 501; shutting down...
+2018-08-21T18:20:58.802640000 152.579892s notice: Shutting down client connections...
+2018-08-21T18:20:58.802934000 152.580186s notice: All client connections closed.
+2018-08-21T18:20:58.802947000 152.580199s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-08-21T18:20:58.805801000 152.583053s notice: Storage engine shut down.
+2018-08-21T18:21:01.256715000 0.009787s notice: Running rethinkdb 2.3.6 (CLANG 9.0.0 (clang-900.0.37))...
+2018-08-21T18:21:01.261936000 0.015005s notice: Running on Darwin 17.7.0 x86_64
+2018-08-21T18:21:01.262013000 0.015080s notice: Loading data from directory /Users/euanblackledge/Desktop/experiments/microservices/rethink_example/rethinkdb_data
+2018-08-21T18:21:01.300687000 0.053752s info: Automatically using cache size of 1198 MB
+2018-08-21T18:21:01.305377000 0.058442s notice: Listening for intracluster connections on port 29015
+2018-08-21T18:21:01.320776000 0.073839s notice: Listening for client driver connections on port 28015
+2018-08-21T18:21:01.321013000 0.074077s notice: Listening for administrative HTTP connections on port 8080
+2018-08-21T18:21:01.323470000 0.076534s notice: Listening on cluster addresses: 127.0.0.1, 192.168.0.3, ::1, 2a02:c7f:8c77:2600:1c00:1d11:1b85:abcd, 2a02:c7f:8c77:2600:984d:f76a:93da:4372, fd4c:e661:36e6::46e:d35:174:e4bd, fd4c:e661:36e6::79dc:3806:2867:3d47, fe80::1%1, fe80::1cf8:3e3d:4355:41c%5, fe80::3817:8eff:fe7d:7cb4%7, fe80::55e2:d4d6:6206:7246%11
+2018-08-21T18:21:01.325318000 0.078382s notice: Listening on driver addresses: 127.0.0.1, 192.168.0.3, ::1, 2a02:c7f:8c77:2600:1c00:1d11:1b85:abcd, 2a02:c7f:8c77:2600:984d:f76a:93da:4372, fd4c:e661:36e6::46e:d35:174:e4bd, fd4c:e661:36e6::79dc:3806:2867:3d47, fe80::1%1, fe80::1cf8:3e3d:4355:41c%5, fe80::3817:8eff:fe7d:7cb4%7, fe80::55e2:d4d6:6206:7246%11
+2018-08-21T18:21:01.328257000 0.081320s notice: Listening on http addresses: 127.0.0.1, 192.168.0.3, ::1, 2a02:c7f:8c77:2600:1c00:1d11:1b85:abcd, 2a02:c7f:8c77:2600:984d:f76a:93da:4372, fd4c:e661:36e6::46e:d35:174:e4bd, fd4c:e661:36e6::79dc:3806:2867:3d47, fe80::1%1, fe80::1cf8:3e3d:4355:41c%5, fe80::3817:8eff:fe7d:7cb4%7, fe80::55e2:d4d6:6206:7246%11
+2018-08-21T18:21:01.328265000 0.081328s notice: Server ready, "Euans_MBP_0kb" 5592b351-b80c-48ad-b74b-d34dd2212bef
+2018-08-21T18:21:03.204191000 1.957135s info: Table 140d5ad4-434b-4030-963b-a6f40a855be6: Starting a new Raft election for term 4.
+2018-08-21T18:21:03.226676000 1.979618s info: Table 140d5ad4-434b-4030-963b-a6f40a855be6: This server is Raft leader for term 4. Latest log index is 9.
+2018-08-21T18:22:37.009464000 95.759102s notice: Server got SIGINT from pid 742, uid 501; shutting down...
+2018-08-21T18:22:37.009576000 95.759213s notice: Shutting down client connections...
+2018-08-21T18:22:37.009917000 95.759555s notice: All client connections closed.
+2018-08-21T18:22:37.009929000 95.759567s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-08-21T18:22:37.013092000 95.762730s notice: Storage engine shut down.
+2018-08-21T18:22:37.612591000 0.009236s notice: Running rethinkdb 2.3.6 (CLANG 9.0.0 (clang-900.0.37))...
+2018-08-21T18:22:37.617377000 0.014020s notice: Running on Darwin 17.7.0 x86_64
+2018-08-21T18:22:37.617436000 0.014077s notice: Loading data from directory /Users/euanblackledge/Desktop/experiments/microservices/rethink_example/rethinkdb_data
+2018-08-21T18:22:37.658448000 0.055089s info: Automatically using cache size of 1173 MB
+2018-08-21T18:22:37.661420000 0.058060s notice: Listening for intracluster connections on port 29015
+2018-08-21T18:22:37.677259000 0.073899s notice: Listening for client driver connections on port 28015
+2018-08-21T18:22:37.677463000 0.074103s notice: Listening for administrative HTTP connections on port 8080
+2018-08-21T18:22:37.679469000 0.076109s notice: Listening on cluster addresses: 127.0.0.1, 192.168.0.3, ::1, 2a02:c7f:8c77:2600:1c00:1d11:1b85:abcd, 2a02:c7f:8c77:2600:984d:f76a:93da:4372, fd4c:e661:36e6::46e:d35:174:e4bd, fd4c:e661:36e6::79dc:3806:2867:3d47, fe80::1%1, fe80::1cf8:3e3d:4355:41c%5, fe80::3817:8eff:fe7d:7cb4%7, fe80::55e2:d4d6:6206:7246%11
+2018-08-21T18:22:37.680859000 0.077499s notice: Listening on driver addresses: 127.0.0.1, 192.168.0.3, ::1, 2a02:c7f:8c77:2600:1c00:1d11:1b85:abcd, 2a02:c7f:8c77:2600:984d:f76a:93da:4372, fd4c:e661:36e6::46e:d35:174:e4bd, fd4c:e661:36e6::79dc:3806:2867:3d47, fe80::1%1, fe80::1cf8:3e3d:4355:41c%5, fe80::3817:8eff:fe7d:7cb4%7, fe80::55e2:d4d6:6206:7246%11
+2018-08-21T18:22:37.682205000 0.078845s notice: Listening on http addresses: 127.0.0.1, 192.168.0.3, ::1, 2a02:c7f:8c77:2600:1c00:1d11:1b85:abcd, 2a02:c7f:8c77:2600:984d:f76a:93da:4372, fd4c:e661:36e6::46e:d35:174:e4bd, fd4c:e661:36e6::79dc:3806:2867:3d47, fe80::1%1, fe80::1cf8:3e3d:4355:41c%5, fe80::3817:8eff:fe7d:7cb4%7, fe80::55e2:d4d6:6206:7246%11
+2018-08-21T18:22:37.682211000 0.078850s notice: Server ready, "Euans_MBP_0kb" 5592b351-b80c-48ad-b74b-d34dd2212bef
+2018-08-21T18:22:39.319759000 1.716350s info: Table 140d5ad4-434b-4030-963b-a6f40a855be6: Starting a new Raft election for term 5.
+2018-08-21T18:22:39.346706000 1.743296s info: Table 140d5ad4-434b-4030-963b-a6f40a855be6: This server is Raft leader for term 5. Latest log index is 12.

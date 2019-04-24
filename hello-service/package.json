@@ -1,0 +1,27 @@
+{
+  "name": "hello-service",
+  "version": "0.0.1",
+  "author": "Skinny Pigeon <>",
+  "private": true,
+  "scripts": {
+    "start": "node hello-service.js",
+    "debug": "node-debug hello-service.js --debug-brk",
+    "test": "mocha specs --reporter spec",
+    "docker": "node scripts/docker.js"
+  },
+  "engines": {
+    "node": ">=6.2.1"
+  },
+  "dependencies": {
+    "fresh": "^0.5.2",
+    "fwsp-config": "1.1.5",
+    "fwsp-server-response": "2.2.6",
+    "hydra-express": "1.6.9"
+  },
+  "devDependencies": {
+    "chai": "4.1.2",
+    "eslint": "5.1.0",
+    "mocha": "5.2.0",
+    "superagent": "^3.8.3"
+  }
+}
